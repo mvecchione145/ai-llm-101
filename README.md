@@ -2,6 +2,8 @@
 
 A 30-minute talk for a general audience explaining AI, machine learning, and LLMs from the ground up — no technical background assumed. Ends with a live demo of running an open-source model locally.
 
+_Last updated: 2026-07-01_
+
 ## Contents
 
 - [`docs/lesson_outline.md`](docs/lesson_outline.md) — full speaker script with timing, talking points, an optional deep-dive analogy, a live-demo walkthrough, and an FAQ of key terms (neural network, vector, parameter, agent, and more).
