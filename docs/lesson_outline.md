@@ -153,3 +153,8 @@ A regular chatbot just talks — it responds with text, but can't *do* anything 
 
 **Q: How does image generation work?**
 Briefly: it's a different technology from LLMs. Most image generators start with a canvas of random visual "noise" and gradually clean it up, step by step, into a coherent picture that matches your text description — a process called diffusion. (Kept short on purpose — happy to expand this into its own section if you ever want to cover it in a future talk.)
+
+**Q: What is contained in an LLM model file?**
+A model file bundles everything needed to run the model: the weights (the billions of learned parameter values — the bulk of the file size), metadata describing the architecture (how many layers, attention heads, etc.), and the tokenizer/vocabulary for converting text to tokens and back. Ollama's format (GGUF) packages all of this into a single self-contained file — that's literally what gets downloaded when you run ollama pull.
+
+> Analogy: like a shipped IKEA box that contains the parts (weights), the assembly instructions (architecture metadata), and the glossary of part names (tokenizer) all in one package, instead of needing three separate boxes.
