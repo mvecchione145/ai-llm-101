@@ -13,4 +13,4 @@
 
 ---
 
-[← Previous: Welcome](01-welcome.md) · [Next: (Optional) Best-fit line →](03-best-fit-line.md)
+[← Previous: Welcome](01-welcome.md) · [Next: Best-fit line →](03-best-fit-line.md)
