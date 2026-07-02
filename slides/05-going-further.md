@@ -1,4 +1,4 @@
-# (Optional) Going Further
+# Going Further
 
 ![Placeholder: abstract illustration of many small "bends" stacked together, or a simple layered neural-network diagram](images/05-layered-network-bends.png)
 
