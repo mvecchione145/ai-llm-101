@@ -1,6 +1,6 @@
 # Wrap-Up
 
-![Placeholder: recap diagram — nested AI → ML → DL → LLM circles with RAG and local-vs-cloud tradeoff annotated on top](images/14-recap-diagram.png)
+![Placeholder: recap diagram — nested AI → ML → DL → LLM circles with RAG and local-vs-cloud tradeoff annotated on top](images/13-recap-diagram.png)
 
 - AI → ML → DL → LLM, plus RAG as an extension on top of an LLM.
 - Local-vs-cloud tradeoff from the Ollama demo.
@@ -12,4 +12,4 @@
 
 ---
 
-[← Previous: Hardware contrast](13-hardware-contrast.md) · [Next: Q&A →](15-qa.md)
+[← Previous: Hardware contrast](12-hardware-contrast.md) · [Next: Q&A →](14-qa.md)

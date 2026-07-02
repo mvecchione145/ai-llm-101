@@ -6,7 +6,9 @@
 ## 0:00–2:00 | Welcome & Framing
 
 - Thank people for coming, introduce yourself briefly.
+- **Opening hook (rhetorical or polling question):** "How many of you have asked ChatGPT or Claude something and wondered how it actually comes up with an answer?" (a show of hands works well here — makes the room part of the talk immediately instead of a lecture).
 - Set expectations: "By the end of 30 minutes, you'll understand what people mean when they say AI, machine learning, and LLM — and we'll see it in action."
+- **Name the structure out loud** (audiences retain a named structure noticeably better than an unstructured talk): "Here's the shape of the next 30 minutes — first what these things actually are, then why it matters to you, then how you can go try one yourself tonight." That's What?–So What?–Now What?, and it maps directly onto Sections 1–2 / Sections 3–4 / Section 5 + wrap-up below.
 - One reassuring line up front: "None of this requires a technical background — if you can follow a recipe, you can follow this."
 
 ---
@@ -71,6 +73,7 @@ Keep this factual and even-handed — no endorsements, just an overview of categ
 - **Open-source / downloadable models:** Meta's Llama family, Mistral, Google's Gemma, Alibaba's Qwen, DeepSeek, and others — models people can download and run themselves rather than only through a web app.
 - **Specialized tools built on these models:** coding assistants (GitHub Copilot, Claude Code), and productivity integrations (AI features now built into Word, Gmail, Excel).
 - **Common thread:** most of these products are the same underlying idea (an LLM, sometimes with RAG or agent capabilities) packaged for a specific use case.
+- **Why this matters, not just what exists:** these tools already save people real hours a week on writing, research, and coding — and the open-weight row on the table below (Llama, Gemma, Qwen, DeepSeek) means access isn't gated behind a subscription; anyone with an ordinary laptop can run one, which is exactly what the demo is about to prove.
 
 > Bridge line into the demo: "That 'open-source / downloadable' category isn't theoretical — I can actually show you one running, right here, on this laptop."
 
@@ -111,6 +114,7 @@ Keep this factual and even-handed — no endorsements, just an overview of categ
 - Even staying within just the Gemma family, the difference is stark: the small edge model we just ran needs about 3GB of memory, while Google's own flagship Gemma model (31 billion parameters) needs around 17-18GB — and that's still Google intentionally keeping a version small enough for a high-end consumer GPU.
 - Go outside the Gemma family to the true frontier, and the numbers jump again: as a rough rule of thumb, a 70-billion-parameter model needs around 40GB of memory to run well (that figure assumes a compressed/"quantized" version — see the aside below; a full-precision 70B model would need closer to 140GB) — more than any consumer graphics card has on its own (high-end consumer GPUs typically top out around 32GB, e.g. the RTX 5090).
 - The very largest open models being released in 2026 — like Kimi K2.6 or DeepSeek's largest models — have around 700 billion to 1 trillion parameters. Running those requires hundreds of gigabytes of memory spread across multiple enterprise-grade GPUs, hardware that costs tens of thousands of dollars and lives in data centers, not living rooms.
+- **Make it felt, not just stated:** that's roughly the same as lining up the graphics cards from 15-20 top-of-the-line gaming PCs, networked together, just to hold one model in memory — before it's answered a single question.
 - **This is the "aha": it's not that ChatGPT, Claude, or Gemini's best models are secretly special code — often they're just too large to fit on a personal computer, so the company runs them in a data center and lets you access them over the internet instead.**
 
 > Optional aside if there's time/interest: mention "quantization" — a technique that shrinks a model's memory footprint (like compressing a photo) at a small cost to quality, which is how some larger models get squeezed onto consumer hardware. Not essential to the core point — skip if running short on time.
@@ -120,6 +124,7 @@ Keep this factual and even-handed — no endorsements, just an overview of categ
 ## 28:00–31:00 | Wrap-Up & Q&A
 
 - Recap the nesting: AI → ML → DL → LLM, plus RAG as an extension on top of an LLM, and the local-vs-cloud tradeoff from the Ollama demo.
+- **Close on a call to action, not just a recap:** "Ollama is free, takes about five minutes to install, and now you know exactly what's happening inside it when you run a model — try it tonight." This is the "Now What" payoff — give the audience something to actually do with what they just learned, not just a summary of it.
 - Open the floor for questions — this is often where the most engagement happens for a general audience. (If someone asks about "AI agents," you have a ready answer in the FAQ below.)
 - Optional takeaway line: "The core idea — predicting the next word based on patterns — is simple. Everything impressive you see built on top of it (search, tool use, and the sheer scale of these models) is what makes it feel more powerful."
 
@@ -130,6 +135,9 @@ Keep this factual and even-handed — no endorsements, just an overview of categ
 - The Ollama demo is the one section where a live failure is genuinely possible (Wi-Fi, laptop performance, projector/terminal font size). Pre-pull the model, test the exact terminal font/size on the projector beforehand, and consider a backup screen-recording of the demo working, just in case.
 - Do **not** attempt to actually load a 70B+ model live to "prove" it's too big — it may hang or crash without a clear payoff. The size comparison lands fine as a stated fact; no need to demonstrate the failure itself.
 - Build in a 2-3 minute buffer since audience questions often come up mid-section for a topic like this.
+- **Delivery mechanics:** watch for hedges ("I think," "sort of," "kind of") and tag questions ("...right?") — swap for assertive phrasing ("I believe," "one way to think about it"). Land sentences by exhaling fully at the end rather than trailing off or up-talking into a question mark.
+- **If you go blank mid-section:** paraphrase what you just said, ask the room a rhetorical question, or return to the core "predicting the next token" theme to regain your footing — don't panic-fill with filler words.
+- **Practice standing up, out loud,** section by section — not mental rehearsal, and not memorizing the whole talk start-to-finish. Section 2 (the step-by-step tokenization → vectors → prediction build) and the Ollama demo are the two sections most worth rehearsing individually, since they're the most sequence-dependent and the most likely to go sideways live.
 
 ---
 

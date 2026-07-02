@@ -13,4 +13,4 @@
 
 ---
 
-[← Previous: RAG](09-rag.md) · [Next: Reference table (backup) →](11-landscape-table.md)
+[← Previous: RAG](09-rag.md) · [Next: Live demo: Ollama →](11-live-demo-title.md)

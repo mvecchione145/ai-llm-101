@@ -1,6 +1,6 @@
 # Appendix: What Is a Vector?
 
-![Placeholder: "meaning map" showing words as points, with related words (king/queen) clustered near each other and unrelated words (king/bicycle) far apart](images/17-vector-meaning-map.png)
+![Placeholder: "meaning map" showing words as points, with related words (king/queen) clustered near each other and unrelated words (king/bicycle) far apart](images/16-vector-meaning-map.png)
 
 - A list of numbers representing something (like a token) as a point in space.
 - Tokens with similar meanings end up numerically "close" to each other.
@@ -13,4 +13,4 @@
 
 ---
 
-[← Previous: Appendix: Neural network](16-appendix-neural-network.md) · [Next: Appendix: Parameter →](18-appendix-parameter.md)
+[← Previous: Appendix: Neural network](15-appendix-neural-network.md) · [Next: Appendix: Parameter →](17-appendix-parameter.md)

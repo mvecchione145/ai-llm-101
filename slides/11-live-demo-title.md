@@ -1,6 +1,6 @@
 # Live Demo: Running an Open Model Yourself
 
-![Placeholder: terminal screenshot of `ollama run gemma4:e2b`](images/12-ollama-terminal.png)
+![Placeholder: terminal screenshot of `ollama run gemma4:e2b`](images/11-ollama-terminal.png)
 
 - Prove open-source models are real and runnable on ordinary hardware.
 - Then show why the highest-performing models still require serious infrastructure.
@@ -15,4 +15,4 @@ ollama run gemma4:e2b
 
 ---
 
-[← Previous: Reference table (backup)](11-landscape-table.md) · [Next: Hardware contrast →](13-hardware-contrast.md)
+[← Previous: Current landscape](10-current-landscape.md) · [Next: Hardware contrast →](12-hardware-contrast.md)

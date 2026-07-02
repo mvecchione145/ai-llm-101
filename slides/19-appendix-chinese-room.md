@@ -1,6 +1,6 @@
 # Appendix: Does It Actually Understand? (The Chinese Room)
 
-![Placeholder: person in a locked room passing Chinese symbols in and out via a rulebook, no comprehension implied](images/20-chinese-room-diagram.png)
+![Placeholder: person in a locked room passing Chinese symbols in and out via a rulebook, no comprehension implied](images/19-chinese-room-diagram.png)
 
 - Philosopher John Searle's **Chinese Room argument** (1980): a person who doesn't speak Chinese sits in a room with a rulebook mapping any incoming Chinese symbols to the correct symbols to send back.
 - From outside, the room looks fluent in Chinese — but the person inside is just matching patterns against rules, with no understanding of what the symbols mean.
@@ -14,4 +14,4 @@
 
 ---
 
-[← Previous: Appendix: Agent](19-appendix-agent.md)
+[← Previous: Appendix: Agent](18-appendix-agent.md)

@@ -1,6 +1,6 @@
 # Why Bigger Models Need Bigger Hardware
 
-![Placeholder: bar chart comparing memory needed — Gemma e2b (~3GB) vs Gemma 4 31B (~17-18GB) vs 70B model (~40GB) vs frontier 700B-1.6T model (hundreds of GB)](images/13-hardware-memory-chart.png)
+![Placeholder: bar chart comparing memory needed — Gemma e2b (~3GB) vs Gemma 4 31B (~17-18GB) vs 70B model (~40GB) vs frontier 700B-1.6T model (hundreds of GB)](images/12-hardware-memory-chart.png)
 
 - **Parameters** are roughly the number of knobs a model tuned during training.
 - Gemma e2b: ~3GB · Gemma 4 (31B): ~17–18GB · 70B model: ~40GB · Largest 2026 open models (700B–1.6T): hundreds of GB across enterprise GPUs
@@ -13,4 +13,4 @@
 
 ---
 
-[← Previous: Live demo: Ollama](12-live-demo-title.md) · [Next: Wrap-up →](14-wrapup.md)
+[← Previous: Live demo: Ollama](11-live-demo-title.md) · [Next: Wrap-up →](13-wrapup.md)
