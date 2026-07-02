@@ -9,3 +9,7 @@
 ---
 
 > Speaker notes: see [28:00–31:00 | Wrap-Up & Q&A](../lesson_outline.md#28003100--wrap-up--qa) in `lesson_outline.md`.
+
+---
+
+[← Previous: Hardware contrast](13-hardware-contrast.md) · [Next: Q&A →](15-qa.md)

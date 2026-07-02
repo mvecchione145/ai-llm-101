@@ -10,3 +10,7 @@
 ---
 
 > Speaker notes: see [FAQ: What is a vector?](../lesson_outline.md#faq-key-terms-explained) in `lesson_outline.md`.
+
+---
+
+[← Previous: Appendix: Neural network](16-appendix-neural-network.md) · [Next: Appendix: Parameter →](18-appendix-parameter.md)

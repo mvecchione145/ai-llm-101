@@ -10,3 +10,7 @@
 ---
 
 > Speaker notes: see [23:00–28:00 | Section 5: Live Demo](../lesson_outline.md#23002800--section-5-live-demo--running-an-open-model-yourself-ollama) in `lesson_outline.md`. Do not attempt to load a 70B+ model live.
+
+---
+
+[← Previous: Live demo: Ollama](12-live-demo-title.md) · [Next: Wrap-up →](14-wrapup.md)

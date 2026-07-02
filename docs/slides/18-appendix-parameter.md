@@ -11,3 +11,7 @@
 ---
 
 > Speaker notes: see [FAQ: What is a model parameter?](../lesson_outline.md#faq-key-terms-explained) in `lesson_outline.md`.
+
+---
+
+[← Previous: Appendix: Vector](17-appendix-vector.md) · [Next: Appendix: Agent →](19-appendix-agent.md)

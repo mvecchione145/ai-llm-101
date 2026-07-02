@@ -11,3 +11,7 @@
 ---
 
 > Speaker notes: see [FAQ: What is a neural network?](../lesson_outline.md#faq-key-terms-explained) in `lesson_outline.md`.
+
+---
+
+[← Previous: Q&A](15-qa.md) · [Next: Appendix: Vector →](17-appendix-vector.md)

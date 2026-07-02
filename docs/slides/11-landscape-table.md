@@ -15,3 +15,7 @@
 ---
 
 > Speaker notes: exact version numbers shift roughly monthly — sanity-check names/products before presenting. See [Section 4](../lesson_outline.md#19002300--section-4-the-current-landscape-of-offerings) in `lesson_outline.md`.
+
+---
+
+[← Previous: Current landscape](10-current-landscape.md) · [Next: Live demo: Ollama →](12-live-demo-title.md)

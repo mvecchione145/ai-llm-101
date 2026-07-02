@@ -10,3 +10,7 @@
 ---
 
 > Speaker notes: see [19:00–23:00 | Section 4: The Current Landscape of Offerings](../lesson_outline.md#19002300--section-4-the-current-landscape-of-offerings) in `lesson_outline.md` for the full reference table (good as a handout/backup slide, dense for a live slide).
+
+---
+
+[← Previous: RAG](09-rag.md) · [Next: Reference table (backup) →](11-landscape-table.md)

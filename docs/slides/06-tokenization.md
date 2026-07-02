@@ -9,3 +9,7 @@
 ---
 
 > Speaker notes: see [7:00–15:00 | Section 2: What Is an LLM Actually Doing?](../lesson_outline.md#07001500--section-2-what-is-an-llm-actually-doing) in `lesson_outline.md`.
+
+---
+
+[← Previous: (Optional) Going further](05-going-further.md) · [Next: Tokens to vectors →](07-tokens-to-vectors.md)

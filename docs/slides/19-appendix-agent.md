@@ -11,3 +11,7 @@
 ---
 
 > Speaker notes: see [FAQ: What is an agent?](../lesson_outline.md#faq-key-terms-explained) in `lesson_outline.md`.
+
+---
+
+[← Previous: Appendix: Parameter](18-appendix-parameter.md) · [Next: Appendix: Chinese Room →](20-appendix-chinese-room.md)

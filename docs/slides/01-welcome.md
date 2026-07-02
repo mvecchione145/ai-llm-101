@@ -7,3 +7,7 @@
 ---
 
 > Speaker notes: see [0:00–2:00 | Welcome & Framing](../lesson_outline.md#000200--welcome--framing) in `lesson_outline.md`.
+
+---
+
+[← Previous: Title](00-title.md) · [Next: The AI Landscape →](02-ai-landscape.md)

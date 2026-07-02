@@ -46,6 +46,8 @@ Talking points (build this step-by-step, it's the technical heart of the talk):
 
 > Optional Q&A nugget (only bring up if asked "why does it give different answers to the same question?"): models usually don't always pick the single most likely token — they add a small amount of controlled randomness so responses don't feel robotic or identical every time.
 
+> Optional philosophical aside (only bring up if someone asks "but does it actually *understand* what it's saying?"): this is a great moment to mention the **Chinese Room argument** — see the FAQ below for the full version.
+
 **Live demo moment:** Ask ChatGPT or Claude a simple question live, and narrate: "Watch — it's not searching a database for a memorized answer, it's generating this response one token at a time, live, right now."
 
 ---
@@ -150,6 +152,10 @@ A parameter is one of the individual numerical values inside a neural network �
 **Q: What is an agent?**
 A regular chatbot just talks — it responds with text, but can't *do* anything beyond that. An "agent" extends an LLM by giving it tools: the ability to search the web, run code, browse a website, or call other software. It works in a loop — take an action, look at the result, decide the next step, repeat — continuing until it reaches its goal or hits a stopping point (like a step limit). "Autonomous" sounds more dramatic than it usually is in practice: agents can only do what their given tools allow, and most real-world uses still include guardrails or a human checking in before anything important happens.
 > Analogy: think of a regular chatbot as a knowledgeable person answering questions over the phone — they can tell you what to do, but can't do it themselves. An agent is like handing that same person a set of keys and letting them actually go complete the task, checking back in with you as they go.
+
+**Q: Does the model actually *understand* what it's saying, or is it just predicting symbols?**
+This is genuinely debated, and there's a famous framing for it: philosopher John Searle's **Chinese Room argument** (1980). Imagine a person locked in a room who doesn't speak Chinese, but has a giant rulebook that tells them exactly which Chinese symbols to write back out in response to any Chinese symbols slipped under the door. From outside, the room appears fluent in Chinese — but the person inside is just matching patterns against a rulebook, with zero understanding of what any of it means. Searle's point: following rules to manipulate symbols isn't the same thing as genuinely understanding them.
+> Why it's relevant here: an LLM predicting the next token from learned statistical patterns is arguably doing something structurally similar — extraordinarily sophisticated pattern-matching, not necessarily "understanding" in the human sense. Whether that distinction is real, or even meaningful, is an open philosophical debate — not a settled fact. It's a good note of intellectual humility to land on if the conversation goes there.
 
 **Q: How does image generation work?**
 Briefly: it's a different technology from LLMs. Most image generators start with a canvas of random visual "noise" and gradually clean it up, step by step, into a coherent picture that matches your text description — a process called diffusion. (Kept short on purpose — happy to expand this into its own section if you ever want to cover it in a future talk.)

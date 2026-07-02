@@ -28,7 +28,8 @@ Each slide's placeholder image has been filled in with a generated diagram in `i
 | 17 | [Appendix: Vector](17-appendix-vector.md) | `images/17-vector-meaning-map.png` |
 | 18 | [Appendix: Parameter](18-appendix-parameter.md) | `images/18-parameter-soundboard.png` |
 | 19 | [Appendix: Agent](19-appendix-agent.md) | `images/19-agent-loop-diagram.png` |
+| 20 | [Appendix: Chinese Room](20-appendix-chinese-room.md) | `images/20-chinese-room-diagram.png` |
 
-Slides 03–05 are optional (only use if time allows). Slide 11 and 16–19 are backup/appendix slides, not part of the main timed flow.
+Slides 03–05 are optional (only use if time allows). Slide 11 and 16–20 are backup/appendix slides, not part of the main timed flow.
 
 > **Note on the generated images:** slide 10 ("Current landscape") is illustrated with a generic category grid of product *names* rather than real company logos, since those logos are trademarked. If you want actual logos on that slide, source them yourself from each company's press/brand page. Slide 12's terminal image is a styled mockup, not a real screenshot — swap in an actual screenshot from your own `ollama run` session if you'd like it to be authentic.

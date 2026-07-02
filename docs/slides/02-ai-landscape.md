@@ -10,3 +10,7 @@
 ---
 
 > Speaker notes: see [2:00–7:00 | Section 1: The AI Landscape](../lesson_outline.md#020700--section-1-the-ai-landscape) in `lesson_outline.md`.
+
+---
+
+[← Previous: Welcome](01-welcome.md) · [Next: (Optional) Best-fit line →](03-best-fit-line.md)

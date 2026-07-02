@@ -9,3 +9,7 @@
 ---
 
 > Speaker notes: see the "Optional deeper analogy" callout in [Section 1](../lesson_outline.md#020700--section-1-the-ai-landscape) in `lesson_outline.md`. Use only if time allows.
+
+---
+
+[← Previous: The AI Landscape](02-ai-landscape.md) · [Next: (Optional) Adding complexity →](04-adding-complexity.md)

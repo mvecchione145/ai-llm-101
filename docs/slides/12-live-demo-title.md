@@ -12,3 +12,7 @@ ollama run gemma4:e2b
 ---
 
 > Speaker notes: see [23:00–28:00 | Section 5: Live Demo](../lesson_outline.md#23002800--section-5-live-demo--running-an-open-model-yourself-ollama) in `lesson_outline.md`. Pre-pull the model before presenting.
+
+---
+
+[← Previous: Reference table (backup)](11-landscape-table.md) · [Next: Hardware contrast →](13-hardware-contrast.md)

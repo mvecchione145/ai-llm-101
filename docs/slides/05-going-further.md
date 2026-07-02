@@ -9,3 +9,7 @@
 ---
 
 > Speaker notes: see the "Optional deeper analogy" callout in [Section 1](../lesson_outline.md#020700--section-1-the-ai-landscape) in `lesson_outline.md`, including the honest caveat about real networks operating in many more dimensions.
+
+---
+
+[← Previous: (Optional) Adding complexity](04-adding-complexity.md) · [Next: Tokenization →](06-tokenization.md)
