@@ -1,4 +1,4 @@
-# (Optional) Adding Complexity
+# Adding Complexity
 
 ![Placeholder: same scatter plot but with data that curves, fit by a curved polynomial line instead of a straight one](images/04-scatter-curved-line.png)
 
@@ -8,8 +8,8 @@
 
 ---
 
-> Speaker notes: see the "Optional deeper analogy" callout in [Section 1](../lesson_outline.md#020700--section-1-the-ai-landscape) in `lesson_outline.md`. Use only if time allows.
+> Speaker notes: see the "Analogy" callout in [Section 1](../lesson_outline.md#020700--section-1-the-ai-landscape) in `lesson_outline.md`.
 
 ---
 
-[← Previous: (Optional) Best-fit line](03-best-fit-line.md) · [Next: (Optional) Going further →](05-going-further.md)
+[← Previous: Best-fit line](03-best-fit-line.md) · [Next: Going further →](05-going-further.md)

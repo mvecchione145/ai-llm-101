@@ -12,4 +12,4 @@
 
 ---
 
-[← Previous: (Optional) Adding complexity](04-adding-complexity.md) · [Next: Tokenization →](06-tokenization.md)
+[← Previous: Adding complexity](04-adding-complexity.md) · [Next: Tokenization →](06-tokenization.md)

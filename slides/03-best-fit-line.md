@@ -1,4 +1,4 @@
-# (Optional) Deep Learning as Finding the Best-Fit Line
+# Deep Learning as Finding the Best-Fit Line
 
 ![Placeholder: 2D scatter plot of random points with a single straight best-fit line through them](images/03-scatter-straight-line.png)
 
@@ -8,8 +8,8 @@
 
 ---
 
-> Speaker notes: see the "Optional deeper analogy" callout in [Section 1](../lesson_outline.md#020700--section-1-the-ai-landscape) in `lesson_outline.md`. Use only if time allows.
+> Speaker notes: see the "Analogy" callout in [Section 1](../lesson_outline.md#020700--section-1-the-ai-landscape) in `lesson_outline.md`.
 
 ---
 
-[← Previous: The AI Landscape](02-ai-landscape.md) · [Next: (Optional) Adding complexity →](04-adding-complexity.md)
+[← Previous: The AI Landscape](02-ai-landscape.md) · [Next: Adding complexity →](04-adding-complexity.md)

@@ -1,10 +1,8 @@
 # Wrap-Up
 
-![Placeholder: recap diagram — nested AI → ML → DL → LLM circles with RAG and local-vs-cloud tradeoff annotated on top](images/13-recap-diagram.png)
-
-- AI → ML → DL → LLM, plus RAG as an extension on top of an LLM.
-- Local-vs-cloud tradeoff from the Ollama demo.
-- The core idea — predicting the next word based on patterns — is simple. Everything built on top of it is what makes it feel powerful.
+- AI → ML → DL → LLM are distinct elements.
+- LLMs do not "understand" but rather provide the most likely response according to its training.
+- Don't be afraid of LLMs — try one today.
 
 ---
 

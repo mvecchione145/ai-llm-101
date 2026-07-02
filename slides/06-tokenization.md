@@ -12,4 +12,4 @@
 
 ---
 
-[← Previous: (Optional) Going further](05-going-further.md) · [Next: Tokens to vectors →](07-tokens-to-vectors.md)
+[← Previous: Going further](05-going-further.md) · [Next: Tokens to vectors →](07-tokens-to-vectors.md)

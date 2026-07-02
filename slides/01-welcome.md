@@ -1,7 +1,10 @@
 # Welcome
 
 - Thanks for coming!
-- By the end of this talk, you'll understand what people mean by **AI**, **machine learning**, and **LLM** — and we'll see it in action.
+- By the end of this talk, you'll understand:
+    - What is an **LLM**?
+    - How does an **LLM** work?
+    - How I can use an **LLM**?
 - No technical background required — if you can follow a recipe, you can follow this.
 
 ---

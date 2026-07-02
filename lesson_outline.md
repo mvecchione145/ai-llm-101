@@ -23,9 +23,7 @@ Talking points:
 - **Deep Learning (DL)** is a subset of ML — it uses neural networks with many layers ("deep" = many layers) loosely inspired by how neurons connect in the brain. Older ML techniques (like decision trees or linear regression) are ML but not "deep."
 - **Large Language Model (LLM)** is a subset of Deep Learning — specifically, deep neural networks (using an architecture called a "transformer") trained on massive amounts of text to work with human language.
 
-> Slide idea: four nested circles, labeled AI → ML → DL → LLM, largest to smallest.
-
-> **Optional deeper analogy — "Deep learning as finding the best-fit line"** (use this if you want to spend an extra minute or two building real intuition for *how* learning works, not just what the nesting diagram looks like):
+> **Analogy — "Deep learning as finding the best-fit line"** (use this if you want to spend an extra minute or two building real intuition for *how* learning works, not just what the nesting diagram looks like):
 >
 > This is a simplification, but an honest one — the core mechanic really is shared between basic statistics and deep learning: adjust internal numbers until they best match the patterns in the data.
 >
