@@ -8,7 +8,7 @@
 - Thank people for coming, introduce yourself briefly.
 - **Opening hook (rhetorical or polling question):** "How many of you have asked ChatGPT or Claude something and wondered how it actually comes up with an answer?" (a show of hands works well here — makes the room part of the talk immediately instead of a lecture).
 - Set expectations: "By the end of 30 minutes, you'll understand what people mean when they say AI, machine learning, and LLM — and we'll see it in action."
-- **Name the structure out loud** (audiences retain a named structure noticeably better than an unstructured talk): "Here's the shape of the next 30 minutes — first what these things actually are, then why it matters to you, then how you can go try one yourself tonight." That's What?–So What?–Now What?, and it maps directly onto Sections 1–2 / Sections 3–4 / Section 5 + wrap-up below.
+- **Name the structure out loud** (audiences retain a named structure noticeably better than an unstructured talk): "Here's the shape of the next 30 minutes — first what these things actually are, then why it matters to you, then how you can go try one yourself tonight." That's What?–So What?–Now What?, and it maps directly onto Sections 1–2 / Sections 3–4 / wrap-up below.
 - One reassuring line up front: "None of this requires a technical background — if you can follow a recipe, you can follow this."
 
 ---
@@ -71,9 +71,7 @@ Keep this factual and even-handed — no endorsements, just an overview of categ
 - **Open-source / downloadable models:** Meta's Llama family, Mistral, Google's Gemma, Alibaba's Qwen, DeepSeek, and others — models people can download and run themselves rather than only through a web app.
 - **Specialized tools built on these models:** coding assistants (GitHub Copilot, Claude Code), and productivity integrations (AI features now built into Word, Gmail, Excel).
 - **Common thread:** most of these products are the same underlying idea (an LLM, sometimes with RAG or agent capabilities) packaged for a specific use case.
-- **Why this matters, not just what exists:** these tools already save people real hours a week on writing, research, and coding — and the open-weight row on the table below (Llama, Gemma, Qwen, DeepSeek) means access isn't gated behind a subscription; anyone with an ordinary laptop can run one, which is exactly what the demo is about to prove.
-
-> Bridge line into the demo: "That 'open-source / downloadable' category isn't theoretical — I can actually show you one running, right here, on this laptop."
+- **Why this matters, not just what exists:** these tools already save people real hours a week on writing, research, and coding — and the open-weight row on the table below (Llama, Gemma, Qwen, DeepSeek) means access isn't gated behind a subscription; anyone with an ordinary laptop can run one — see the FAQ below if asked how, or why the biggest models still need a data center.
 
 **Detailed reference table** (useful as a handout, backup slide, or just your own cheat sheet — probably too dense to put on a single presentation slide as-is):
 
@@ -93,49 +91,21 @@ Keep this factual and even-handed — no endorsements, just an overview of categ
 
 ---
 
-## 23:00–28:00 | Section 5: Live Demo — Running an Open Model Yourself (Ollama)
+## 23:00–26:00 | Wrap-Up & Q&A
 
-**Goal of this section:** prove open-source models are real and runnable on ordinary hardware, then show *why* the highest-performing models still require serious infrastructure — setting up the "why does ChatGPT need a data center?" payoff.
-
-**Before the talk (prep, not to be done live):**
-- Install Ollama ahead of time (ollama.com — one-line installer for Mac/Windows/Linux).
-- Pre-download ("pull") the small model you'll demo so you're not waiting on library Wi-Fi during the talk: `ollama pull gemma4:e2b` (about 3GB — runs comfortably on almost any modern laptop, no dedicated GPU needed).
-
-**Live steps:**
-1. Open a terminal and run: `ollama run gemma4:e2b`, then ask it a question live (e.g., "What's a good book for a rainy day?").
-2. Call out explicitly: "This is Gemma — Google's open-source model family. It's a separate line from Gemini, Google's flagship product; Gemma is fully open-weight, meaning anyone can download and run it themselves, which is exactly what we're doing right now."
-3. Narrate while it responds: "This is running entirely on my laptop — not the internet. If I turned off Wi-Fi right now, it would still work." (Turning off Wi-Fi live is a nice, low-risk flourish if you're comfortable with it.)
-4. Point out the size: this model has about 2 billion "effective" parameters — tiny compared to the frontier models people read about.
-
-**The contrast — why bigger models need bigger hardware:**
-- A model's "parameters" are roughly the number of knobs it learned to tune during training. More parameters generally means more capability, but also means the model takes up more memory.
-- Even staying within just the Gemma family, the difference is stark: the small edge model we just ran needs about 3GB of memory, while Google's own flagship Gemma model (31 billion parameters) needs around 17-18GB — and that's still Google intentionally keeping a version small enough for a high-end consumer GPU.
-- Go outside the Gemma family to the true frontier, and the numbers jump again: as a rough rule of thumb, a 70-billion-parameter model needs around 40GB of memory to run well (that figure assumes a compressed/"quantized" version — see the aside below; a full-precision 70B model would need closer to 140GB) — more than any consumer graphics card has on its own (high-end consumer GPUs typically top out around 32GB, e.g. the RTX 5090).
-- The very largest open models being released in 2026 — like Kimi K2.6 or DeepSeek's largest models — have around 700 billion to 1 trillion parameters. Running those requires hundreds of gigabytes of memory spread across multiple enterprise-grade GPUs, hardware that costs tens of thousands of dollars and lives in data centers, not living rooms.
-- **Make it felt, not just stated:** that's roughly the same as lining up the graphics cards from 15-20 top-of-the-line gaming PCs, networked together, just to hold one model in memory — before it's answered a single question.
-- **This is the "aha": it's not that ChatGPT, Claude, or Gemini's best models are secretly special code — often they're just too large to fit on a personal computer, so the company runs them in a data center and lets you access them over the internet instead.**
-
-> Optional aside if there's time/interest: mention "quantization" — a technique that shrinks a model's memory footprint (like compressing a photo) at a small cost to quality, which is how some larger models get squeezed onto consumer hardware. Not essential to the core point — skip if running short on time.
-
----
-
-## 28:00–31:00 | Wrap-Up & Q&A
-
-- Recap the nesting: AI → ML → DL → LLM, plus RAG as an extension on top of an LLM, and the local-vs-cloud tradeoff from the Ollama demo.
-- **Close on a call to action, not just a recap:** "Ollama is free, takes about five minutes to install, and now you know exactly what's happening inside it when you run a model — try it tonight." This is the "Now What" payoff — give the audience something to actually do with what they just learned, not just a summary of it.
-- Open the floor for questions — this is often where the most engagement happens for a general audience. (If someone asks about "AI agents," you have a ready answer in the FAQ below.)
+- Recap the nesting: AI → ML → DL → LLM, plus RAG as an extension on top of an LLM.
+- **Close on a call to action, not just a recap:** "Ollama is free, takes about five minutes to install, and lets you run one of these models yourself, right on your laptop — try it tonight." This is the "Now What" payoff — give the audience something to actually do with what they just learned, not just a summary of it.
+- Open the floor for questions — this is often where the most engagement happens for a general audience. (If someone asks about "AI agents" or why bigger models need bigger hardware, you have ready answers in the FAQ below.)
 - Optional takeaway line: "The core idea — predicting the next word based on patterns — is simple. Everything impressive you see built on top of it (search, tool use, and the sheer scale of these models) is what makes it feel more powerful."
 
 ---
 
 ### Speaker Notes
-- **Total is now ~31 minutes.** If you need to hold to exactly 30, cut in this order: (1) drop the optional RAG live demo — already marked optional, (2) skip the quantization aside in the Ollama section, (3) trim Section 1's "not all AI learns" tangent.
-- The Ollama demo is the one section where a live failure is genuinely possible (Wi-Fi, laptop performance, projector/terminal font size). Pre-pull the model, test the exact terminal font/size on the projector beforehand, and consider a backup screen-recording of the demo working, just in case.
-- Do **not** attempt to actually load a 70B+ model live to "prove" it's too big — it may hang or crash without a clear payoff. The size comparison lands fine as a stated fact; no need to demonstrate the failure itself.
+- **Total is now ~26 minutes**, leaving a few minutes of slack under the 30-minute target for Q&A to run long — a comfortable position to be in.
 - Build in a 2-3 minute buffer since audience questions often come up mid-section for a topic like this.
 - **Delivery mechanics:** watch for hedges ("I think," "sort of," "kind of") and tag questions ("...right?") — swap for assertive phrasing ("I believe," "one way to think about it"). Land sentences by exhaling fully at the end rather than trailing off or up-talking into a question mark.
 - **If you go blank mid-section:** paraphrase what you just said, ask the room a rhetorical question, or return to the core "predicting the next token" theme to regain your footing — don't panic-fill with filler words.
-- **Practice standing up, out loud,** section by section — not mental rehearsal, and not memorizing the whole talk start-to-finish. Section 2 (the step-by-step tokenization → vectors → prediction build) and the Ollama demo are the two sections most worth rehearsing individually, since they're the most sequence-dependent and the most likely to go sideways live.
+- **Practice standing up, out loud,** section by section — not mental rehearsal, and not memorizing the whole talk start-to-finish. Section 2 (the step-by-step tokenization → vectors → prediction build) is the most sequence-dependent section and the most worth rehearsing individually.
 
 ---
 
@@ -152,8 +122,12 @@ A vector is a list of numbers used to represent something — in an LLM's case, 
 > Analogy: imagine giving every word GPS coordinates on a giant "meaning map." Words with related meanings (like "king" and "queen") end up near each other on that map, while unrelated words (like "king" and "bicycle") land far apart.
 
 **Q: What is a model parameter?**
-A parameter is one of the individual numerical values inside a neural network — the "weights" mentioned above — that gets adjusted during training. Think of each parameter as a small dial the model learns to turn to just the right setting so it produces good outputs. When you hear a model "has 70 billion parameters," that means it has 70 billion of these tunable dials. More parameters generally give a model more capacity to capture complex patterns — which is part of why bigger models can be more capable, but also why they need so much more memory to run (this ties directly into the Ollama demo above).
+A parameter is one of the individual numerical values inside a neural network — the "weights" mentioned above — that gets adjusted during training. Think of each parameter as a small dial the model learns to turn to just the right setting so it produces good outputs. When you hear a model "has 70 billion parameters," that means it has 70 billion of these tunable dials. More parameters generally give a model more capacity to capture complex patterns — which is part of why bigger models can be more capable, but also why they need so much more memory to run (see "Why do bigger models need bigger hardware?" below).
 > Analogy: like a massive soundboard with billions of tiny sliders, each nudged to a precise position during training so that, combined, they produce the right output for a given input.
+
+**Q: Why do bigger models need bigger hardware?**
+A model's "parameters" are roughly the number of knobs it learned to tune during training — more parameters generally means more capability, but also means the model takes up more memory. The jump is stark even within one model family: Google's small edge model Gemma e2b needs about 3GB of memory, while its own flagship Gemma model (31 billion parameters) needs around 17-18GB. Go out to the true frontier and the numbers jump again — a 70-billion-parameter model needs around 40GB to run well (that figure assumes a compressed/"quantized" version; a full-precision 70B model would need closer to 140GB), more than any consumer graphics card has on its own (high-end consumer GPUs typically top out around 32GB, e.g. the RTX 5090). The very largest open models released in 2026 — like Kimi K2.6 or DeepSeek's largest models — have around 700 billion to 1 trillion parameters, requiring hundreds of gigabytes of memory spread across multiple enterprise-grade GPUs: roughly the same as lining up the graphics cards from 15-20 top-of-the-line gaming PCs, networked together, just to hold one model in memory before it's answered a single question.
+> The "aha": it's not that ChatGPT, Claude, or Gemini's best models are secretly special code — they're often just too large to fit on a personal computer, so the company runs them in a data center and lets you access them over the internet instead. ("Quantization" is the technique that shrinks a model's memory footprint, like compressing a photo, at a small cost to quality — it's how larger models get squeezed onto consumer hardware at all.)
 
 **Q: What is an agent?**
 A regular chatbot just talks — it responds with text, but can't *do* anything beyond that. An "agent" extends an LLM by giving it tools: the ability to search the web, run code, browse a website, or call other software. It works in a loop — take an action, look at the result, decide the next step, repeat — continuing until it reaches its goal or hits a stopping point (like a step limit). "Autonomous" sounds more dramatic than it usually is in practice: agents can only do what their given tools allow, and most real-world uses still include guardrails or a human checking in before anything important happens.
