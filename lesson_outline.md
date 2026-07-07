@@ -23,17 +23,6 @@ Talking points:
 - **Deep Learning (DL)** is a subset of ML — it uses neural networks with many layers ("deep" = many layers) loosely inspired by how neurons connect in the brain. Older ML techniques (like decision trees or linear regression) are ML but not "deep."
 - **Large Language Model (LLM)** is a subset of Deep Learning — specifically, deep neural networks (using an architecture called a "transformer") trained on massive amounts of text to work with human language.
 
-> **Analogy — "Deep learning as finding the best-fit line"** (use this if you want to spend an extra minute or two building real intuition for *how* learning works, not just what the nesting diagram looks like):
->
-> This is a simplification, but an honest one — the core mechanic really is shared between basic statistics and deep learning: adjust internal numbers until they best match the patterns in the data.
->
-> 1. **Start simple:** Show a 2D scatter plot of random data points with a single straight best-fit line through them (classic linear regression). Explain: "This line has just two adjustable numbers — its slope and starting point. 'Fitting' the line means nudging those two numbers until it sits as close as possible to all the points. That 'nudge the numbers until it fits' process is the same basic idea behind training any machine learning model — deep learning included."
-> 2. **Add complexity:** Now show a data set that curves, where a straight line clearly fits poorly. Introduce a curved line (a simple polynomial) that bends to follow the data instead. Point out: "To fit a more complex pattern, we needed a more flexible shape — and that took more adjustable numbers to describe the curve." (This is a nice callback to the "parameters" definition in the FAQ below.)
-> 3. **Go further:** Real-world data — a photo, a sentence, a sound clip — is far too complex to describe with one curve, and it lives in far more than two dimensions. This is where deep learning comes in: instead of one flexible curve, a deep neural network chains together many simple mathematical "bends" (layers), each nudging the data a little, so that combined they can approximate extremely complex patterns no single equation could capture. That's the "deep" in deep learning — many layers stacked, each contributing a small transformation.
-> 4. **Honest caveat, if asked:** Real neural networks aren't literally drawing lines or curves on a 2D graph — they operate across many more dimensions, and each layer applies a non-linear transformation, not just a bend. But the underlying principle — adjusting internal numbers so the model's output best matches patterns in its training data — is genuinely the same idea as fitting a line to points, just scaled up enormously.
->
-> *Visual sequence for slides: (1) scatter plot + straight line → (2) same scatter plot + curved line → (3) an abstract "many small bends stacked together" illustration or simple layered-network diagram, building visually from simple to complex.*
-
 ---
 
 ## 7:00–15:00 | Section 2: What Is an LLM Actually Doing?
@@ -49,6 +38,17 @@ Talking points (build this step-by-step, it's the technical heart of the talk):
 > Optional philosophical aside (only bring up if someone asks "but does it actually *understand* what it's saying?"): this is a great moment to mention the **Chinese Room argument** — see the FAQ below for the full version.
 
 **Live demo moment:** Ask ChatGPT or Claude a simple question live, and narrate: "Watch — it's not searching a database for a memorized answer, it's generating this response one token at a time, live, right now."
+
+> **Optional deeper analogy — "Deep learning as finding the best-fit line"** (use this if you want to spend an extra minute or two building real intuition for *how* the model learned to do what you just described, not just what the mechanics look like):
+>
+> This is a simplification, but an honest one — the core mechanic really is shared between basic statistics and deep learning: adjust internal numbers until they best match the patterns in the data.
+>
+> 1. **Start simple:** Show a 2D scatter plot of random data points with a single straight best-fit line through them (classic linear regression). Explain: "This line has just two adjustable numbers — its slope and starting point. 'Fitting' the line means nudging those two numbers until it sits as close as possible to all the points. That 'nudge the numbers until it fits' process is the same basic idea behind training any machine learning model — deep learning included."
+> 2. **Add complexity:** Now show a data set that curves, where a straight line clearly fits poorly. Introduce a curved line (a simple polynomial) that bends to follow the data instead. Point out: "To fit a more complex pattern, we needed a more flexible shape — and that took more adjustable numbers to describe the curve." (This is a nice callback to the "parameters" definition in the FAQ below.)
+> 3. **Go further:** Real-world data — a photo, a sentence, a sound clip — is far too complex to describe with one curve, and it lives in far more than two dimensions. This is where deep learning comes in: instead of one flexible curve, a deep neural network chains together many simple mathematical "bends" (layers), each nudging the data a little, so that combined they can approximate extremely complex patterns no single equation could capture. That's the "deep" in deep learning — many layers stacked, each contributing a small transformation.
+> 4. **Honest caveat, if asked:** Real neural networks aren't literally drawing lines or curves on a 2D graph — they operate across many more dimensions, and each layer applies a non-linear transformation, not just a bend. But the underlying principle — adjusting internal numbers so the model's output best matches patterns in its training data — is genuinely the same idea as fitting a line to points, just scaled up enormously.
+>
+> *Visual sequence for slides: (1) scatter plot + straight line → (2) same scatter plot + curved line → (3) an abstract "many small bends stacked together" illustration or simple layered-network diagram, building visually from simple to complex.*
 
 ---
 

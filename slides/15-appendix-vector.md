@@ -7,10 +7,4 @@
 
 > Analogy: GPS coordinates on a giant "meaning map."
 
----
-
-> Speaker notes: see [FAQ: What is a vector?](../lesson_outline.md#faq-key-terms-explained) in `lesson_outline.md`.
-
----
-
 [← Previous: Appendix: Neural network](15-appendix-neural-network.md) · [Next: Appendix: Parameter →](17-appendix-parameter.md)

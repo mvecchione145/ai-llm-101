@@ -8,10 +8,4 @@
 
 > Analogy: a massive soundboard with billions of tiny sliders nudged to precise positions.
 
----
-
-> Speaker notes: see [FAQ: What is a model parameter?](../lesson_outline.md#faq-key-terms-explained) in `lesson_outline.md`.
-
----
-
 [← Previous: Appendix: Vector](16-appendix-vector.md) · [Next: Appendix: Agent →](18-appendix-agent.md)

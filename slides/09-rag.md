@@ -6,10 +6,4 @@
 - **RAG** retrieves relevant information first, then hands it to the LLM as extra context.
 - Like an open-book exam instead of answering purely from memory.
 
----
-
-> Speaker notes: see [15:00–19:00 | Section 3: RAG](../lesson_outline.md#15001900--section-3-rag-retrieval-augmented-generation) in `lesson_outline.md`.
-
----
-
-[← Previous: Next-token prediction](08-next-token-prediction.md) · [Next: Current landscape →](10-current-landscape.md)
+[← Previous: Going further](08-going-further.md) · [Next: Current landscape →](10-current-landscape.md)

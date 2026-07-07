@@ -8,10 +8,4 @@
 
 > Analogy: a chatbot is a knowledgeable person on the phone; an agent is that same person handed the keys to go do the task.
 
----
-
-> Speaker notes: see [FAQ: What is an agent?](../lesson_outline.md#faq-key-terms-explained) in `lesson_outline.md`.
-
----
-
 [← Previous: Appendix: Parameter](17-appendix-parameter.md) · [Next: Appendix: Chinese Room →](19-appendix-chinese-room.md)

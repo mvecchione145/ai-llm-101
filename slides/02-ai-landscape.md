@@ -7,10 +7,4 @@
 - **Deep Learning** — machine learning using many-layered neural networks
 - **LLM** — deep neural networks (transformers) trained on massive amounts of text
 
----
-
-> Speaker notes: see [2:00–7:00 | Section 1: The AI Landscape](../lesson_outline.md#020700--section-1-the-ai-landscape) in `lesson_outline.md`.
-
----
-
-[← Previous: Welcome](01-welcome.md) · [Next: Best-fit line →](03-best-fit-line.md)
+[← Previous: Welcome](01-welcome.md) · [Next: Tokenization →](03-tokenization.md)

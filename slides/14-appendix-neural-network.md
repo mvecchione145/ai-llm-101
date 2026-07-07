@@ -8,10 +8,4 @@
 
 > Analogy: an assembly line, where each station makes a small adjustment to the item passing through.
 
----
-
-> Speaker notes: see [FAQ: What is a neural network?](../lesson_outline.md#faq-key-terms-explained) in `lesson_outline.md`.
-
----
-
 [← Previous: Q&A](14-qa.md) · [Next: Appendix: Vector →](16-appendix-vector.md)

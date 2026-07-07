@@ -8,10 +8,4 @@
 
 > Why it's relevant here: an LLM predicting the next token from learned patterns is arguably doing something structurally similar — sophisticated pattern-matching, not necessarily "understanding." Whether that distinction is real is an open philosophical debate, not a settled fact.
 
----
-
-> Speaker notes: see [FAQ: Does the model actually understand what it's saying?](../lesson_outline.md#faq-key-terms-explained) in `lesson_outline.md`.
-
----
-
 [← Previous: Appendix: Agent](18-appendix-agent.md)
