@@ -7,4 +7,4 @@
 - **Specialized tools built on these models:** coding assistants, productivity integrations
 - Common thread: most are the same underlying idea (an LLM, sometimes with RAG or agent capabilities) packaged for a use case
 
-[← Previous: RAG](09-rag.md) · [Next: Live demo: Ollama →](11-live-demo-title.md)
+[← Previous: RAG](09-rag.md) · [Next: Wrap-up →](11-wrapup.md)
